@@ -1,5 +1,5 @@
 
-import Home from "./components/home/Home
+import Home from "./components/home/Home"
 
 import {
   createRoutesFromElements,
@@ -7,7 +7,6 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
-import Product from "./components/product/Product";
 import RootLayout from "./components/rootLayout/RootLayout";
 
 const router = createBrowserRouter(
