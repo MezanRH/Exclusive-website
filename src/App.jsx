@@ -1,5 +1,5 @@
 
-import Home from "./components/homePage/Home"
+import Home from "./components/home/Home
 
 import {
   createRoutesFromElements,
