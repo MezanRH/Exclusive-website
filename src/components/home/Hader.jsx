@@ -26,7 +26,7 @@ const Hader = ({className}) => {
         <ListItem text="Health & Beauty" className="mt-4"/>
       </div>
       <div className='w-4/5'>
-        <Slide className=" pl-7"/>
+        <Slide className=" ml-7"/>
       </div>
     </Flex>
     </>

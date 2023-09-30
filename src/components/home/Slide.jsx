@@ -17,22 +17,22 @@ const Slide = ({className}) => {
   return (
     <Slider {...settings} className={className}>
       <div>
-        <Images src={baner}/>
+        <Images src={baner} className=" bg-cover w-full"/>
       </div>
       <div>
-        <Images src={baner}/>
+        <Images src={baner} className=" bg-cover w-full"/>
       </div>
       <div>
-        <Images src={baner}/>
+        <Images src={baner} className=" bg-cover w-full"/>
       </div>
       <div>
-        <Images src={baner}/>
+        <Images src={baner} className=" bg-cover w-full"/>
       </div>
       <div>
-        <Images src={baner}/>
+        <Images src={baner} className=" bg-cover w-full"/>
       </div>
       <div>
-        <Images src={baner}/>
+        <Images src={baner} className=" bg-cover w-full"/>
       </div>
       
     </Slider>

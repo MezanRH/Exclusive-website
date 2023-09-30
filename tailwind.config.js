@@ -22,6 +22,9 @@ export default {
       width:{
         19:"19%",
         70:"70%"
+      },
+      minHeight: {
+        '250': '250px',
       }
     },
   },

@@ -23,7 +23,6 @@ const TimeCondown = ({className,duration}) => {
   let [minutes,setMinuts] = useState(0);
   let [seconds,setSeconds] = useState(0);
   
-  console.log(days)
 
   return (
     <div className={className}>
