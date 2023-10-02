@@ -7,6 +7,7 @@ import ListItem from '../ListItem'
 import { FiSearch } from 'react-icons/fi'
 import { AiOutlineHeart } from 'react-icons/ai'
 import { BsCart3 } from 'react-icons/bs'
+import { AiOutlineUser } from 'react-icons/ai'
 
 
 const Navbar = () => {
@@ -15,7 +16,7 @@ const Navbar = () => {
       <Container>
       <Flex className="mt-10 mb-4">
         <div className='w-1/5'>
-          <Images className="min-h-[20px] w-[90px]" src={logo}/>
+          <Images className=" min-h-[20px] w-14" src={logo}/>
         </div>
         <div className='w-2/5'>
             <ul className=' justify-end'>
@@ -34,6 +35,7 @@ const Navbar = () => {
             
               <AiOutlineHeart className=' ml-24 mt-1 cursor-pointer'/>
               <BsCart3 className=' ml-12 mt-1 cursor-pointer'/>
+              <AiOutlineUser className=' ml-12 mt-1 cursor-pointer'/>
           </Flex>
         </div>
       </Flex>
