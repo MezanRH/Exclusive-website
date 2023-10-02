@@ -10,6 +10,7 @@ import Monitor from '../../assets/Tv.png'
 import Chair from '../../assets/Cair.png'
 import { BsArrowLeft } from 'react-icons/bs'
 import { BsArrowRight } from 'react-icons/bs'
+import Button from '../Button'
 
 const Today = ({className}) => {
   return (
@@ -19,7 +20,7 @@ const Today = ({className}) => {
     <Flex className=' mt-8 mb-16'>
       <div className=' w-1/2'>
         <Flex>
-          <PortionHadding text="Flash Sales" className=" mt-4 mr-20"/>
+          <PortionHadding text="Flash Sales" className=" mt-4 mr-16"/>
           <TimeCondown className=" ml-2" duration={4 * 24* 60 * 60 * 1000}/>
         </Flex>
       </div>
@@ -36,6 +37,10 @@ const Today = ({className}) => {
       <Product img={Monitor} badgetext="-30%" alt="monitor" text="IPS LCD Gaming Monitor" price="370" rating="99"/>
       <Product img={Chair} badgetext="-25%" alt="Chair" text="S-Series Comfort Chair " price="375" rating="99"/>
     </Flex>
+    <div className=' text-center mt-16'>
+      <Button text="View All Products"/>
+    </div>
+    
     </div>
   )
 }

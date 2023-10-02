@@ -15,7 +15,7 @@ const Navbar = () => {
       <Container>
       <Flex className="mt-10 mb-4">
         <div className='w-1/5'>
-          <Images className="min-h-[20px] w-[80px]" src={logo}/>
+          <Images className="min-h-[20px] w-[90px]" src={logo}/>
         </div>
         <div className='w-2/5'>
             <ul className=' justify-end'>
