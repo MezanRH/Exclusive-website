@@ -1,7 +1,6 @@
 import React from 'react'
 import Container from '../Container'
 import Flex from '../Flex'
-import Images from '../Images'
 import logo from '../../assets/logo.png'
 import ListItem from '../ListItem'
 import { FiSearch } from 'react-icons/fi'
@@ -16,7 +15,7 @@ const Navbar = () => {
       <Container>
       <Flex className="mt-10 mb-4">
         <div className='w-1/5'>
-          <Images className=" min-h-[20px] w-14" src={logo}/>
+          <img src={logo} alt="logo" />
         </div>
         <div className='w-2/5'>
             <ul className=' justify-end'>
