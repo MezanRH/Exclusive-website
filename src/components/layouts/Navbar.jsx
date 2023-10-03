@@ -32,7 +32,7 @@ const Navbar = () => {
             <input type="text" placeholder='What are you loking for' className='border border-solid border-secound focus:outline-none ml-8' />
             <FiSearch className=' absolute top-1/2 right-[15rem] -translate-y-1/2'/>
             
-              <AiOutlineHeart className=' ml-24 mt-1 cursor-pointer'/>
+              <AiOutlineHeart className=' ml-16 mt-1 cursor-pointer'/>
               <BsCart3 className=' ml-12 mt-1 cursor-pointer'/>
               <AiOutlineUser className=' ml-12 mt-1 cursor-pointer'/>
           </Flex>

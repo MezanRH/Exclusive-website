@@ -25,7 +25,7 @@ const Today = ({className}) => {
         </Flex>
       </div>
       <div className='w-1/2'>
-        <Flex className="justify-end">
+        <Flex className="justify-end mt-8">
           <BsArrowRight className=' mr-5 text-2xl'/>
           <BsArrowLeft className='text-2xl'/>
         </Flex>

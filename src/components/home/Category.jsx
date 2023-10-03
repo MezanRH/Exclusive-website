@@ -10,7 +10,7 @@ import { HiOutlineDesktopComputer } from 'react-icons/hi'
 import { CgAppleWatch } from 'react-icons/cg'
 import { AiOutlineCamera } from 'react-icons/ai'
 import { CiHeadphones } from 'react-icons/ci'
-import PortionTitle from '../PortionTitle'
+import { LuGamepad } from 'react-icons/lu'
 
 const Category = ({className}) => {
   return (
@@ -24,7 +24,7 @@ const Category = ({className}) => {
         </Flex>
       </div>
       <div className='w-1/2'>
-        <Flex className="justify-end">
+        <Flex className="justify-end mt-8">
           <BsArrowRight className=' mr-5 text-2xl'/>
           <BsArrowLeft className='text-2xl'/>
         </Flex>
@@ -47,8 +47,8 @@ const Category = ({className}) => {
         <CategoryIcon text="HeadPhones">
           <CiHeadphones className=' hover:text-secound'/>
         </CategoryIcon>
-        <CategoryIcon text="Phones">
-          <GiSmartphone className=' hover:text-secound'/>
+        <CategoryIcon text="Gaming">
+          <LuGamepad className=' hover:text-secound'/>
         </CategoryIcon>
     </Flex>
     
